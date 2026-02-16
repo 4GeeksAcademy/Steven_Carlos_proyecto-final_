@@ -135,7 +135,6 @@ try:
             st.subheader("📋 Datos del Encuentro")
             # Mostramos solo las variables clave para no saturar
             resumen = {
-                "ELO Advantage": f"{stats_dict['EloAdvantage']:.4f}",
                 "Cuota Local": stats_dict['OddHome'],
                 "Forma Local (5)": stats_dict['Form5Home'],
                 "Forma Visitante (5)": stats_dict['Form5Away']
